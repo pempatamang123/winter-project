@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Navbar with Dropdown</title>
+    <link href="css/p.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-RUqX5qFA/ZyM7vfgX0f2QHj7tOfNSmh59dh6N6/a/3iav1kMMy9v03XpN4op1NzIFrwApbRqQIJqUoKcHkQ11g==" crossorigin="anonymous" />
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Logo in the center -->
+       
+        <!-- Navbar toggler for mobile view -->
+        <button class="navbar-toggler dropdown-layout" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items and dropdown -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item dropdown">
+                    <a class="toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT US
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">WHY CHOOSE SHADEMASTER</a>
+                    <a class="dropdown-item" href="#">WHAT IS RIGHT COLOUR</a>
+                    <a class="dropdown-item" href="#">WARRANTY</a>
+                    <a class="dropdown-item" href="#">SUPERIOR COLOUR</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ROOFING DESIGNS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">PATIOS</a>
+                  <a class="dropdown-item" href="#">VERANDAHS</a>
+                  <a class="dropdown-item" href="#">PERGORLAS</a>
+                  <a class="dropdown-item" href="#">ALFRESCOS</a>
+                  <a class="dropdown-item" href="#">CARPORTS</a>
+                  <a class="dropdown-item" href="#">GAZEBOS</a>
+                  <a class="dropdown-item" href="#">OUTDOOR ROOMS</a>
+                  <a class="dropdown-item" href="#">COMMERCIAL PROJECTS</a>
+
+              </div>
+          </li>
+
+          <li class="nav-item dropdown">
+          <a class="logo-pos " href="#">
+          
+              <img src="image/sm3.jpg" alt="Your Logo" height="30" class="img-fluid">
+
+            
+        </li>
+        </a>
+        
+                <li class="nav-item dropdown">
+                    <a class="toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DEALER LOCATOR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">DEALER LOCATOR</a>
+                        <a class="dropdown-item" href="#">Authorised Shademaster dealers are located across Australia in NSW, QLD,VIC and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions.</a>
+                        <a class="dropdown-item" href="#">Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers.</a>
+                        
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      CONTACT US
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">CONTACT US</a>
+                      <a class="dropdown-item" href="#">Call us on 1300 511 053 or fill out the form below to get you one step closer to your custom designed outdoor roof.</a>
+
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+</nav>
+
+<!-- body image -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/sm.jpg" class="d-block w-100" alt="Wild Landscape"/>
+        <div class="carousel-caption">
+            <h3>PREMIUM</h3>
+            <h1>outdoor roofing</h1>
+            <p>Outdoor spaces custom designed and installed using quality Australian made<br> Shademaster roofing.</p>
+            <a class="btn btn-outline-light btn-lg m-2" href="#" role="button" rel="nofollow" target="_blank">LOCATE DEALERS</a>
+          </div>
+          
+      </div>
+      </div>
+      </div>
+<p></p>
+    <!-- sub menu on body -->
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId1" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">PATIOS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId1">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">VERANDAHS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">PERGOLAS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">ALFRESCOS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">CARPORTS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">GAZEBOS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">OUTDOOR ROOMS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId2" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">COMMERCIAL</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId2">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <!-- Repeat the structure for other menu items -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="image/verandahs.jpeg" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <h1 class="custom-heading">PATIOS</h1>
+                        <a class="paragraph" href="#"> Our insulated patios roof panels let you make the most out of your outdoor spaces by shielding them from the elements and keeping them cool with superior insulation.</a>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                            ="button" rel="nofollow" target="_blank">DISCOVER PATIOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+
+    <div class="container">
+        <div class="section" id="section4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <h1 class="custom-heading">VERANDAHS</h1>
+                        <a class="paragraph" href="#">Get some fresh air and enjoy your garden while staying under the shade with a verandah.</a>
+
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                            ="button" rel="nofollow" target="_blank">DISCOVER VERANDAHS</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="image/patios.webp" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+
+    <!-- Add your footer content here -->
+    
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="image/g.jpeg" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <h1 class="custom-heading">PERGOLAS</h1>
+                        <a class="paragraph" href="#">Create a functional garden with a durable and stable pergola to provide a shaded walkway or sitting area.</a>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                            ="button" rel="nofollow" target="_blank">DISCOVER PERGOLAS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+    <div class="container">
+        <div class="section" id="section4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <h1 class="custom-heading">ALFRESCOS</h1>
+                        <a class="paragraph" href="#">Contemporary alfresco areas with water proof sealing to ensure your dinner guests are well protected.</a>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                            ="button" rel="nofollow" target="_blank">DISCOVER ALFRESCOS</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="image/a.jpeg" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more sections as needed -->
+    </div>
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="image/o.jpeg" class="img-fluid" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <h1 class="custom-heading">CARPORTS</h1>
+                        <a class="paragraph" href="#">The outdoors can be quite harsh and may eventually damage your vehicles if you don’t take action early on. If you have cars parked outside your home, then you need a suitable outdoor area roofing solution.</a>
+                       <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                            ="button" rel="nofollow" target="_blank">DISCOVER CARPORTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="section" id="section4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-container">
+                            <h1 class="custom-heading">GAZEBOS</h1>
+                            <a class="paragraph" href="#">A gazebo roof can make a statement and transform your outdoor area. With the right gazebo you can turn your garden into your very own private retreat or party venue.</a>
+                            <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                                ="button" rel="nofollow" target="_blank">DISCOVER GAZEBOS</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-container">
+                            <img src="image/h.jpeg" class="img-fluid" alt="Image 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="section" id="section1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image-container">
+                                <img src="image/r.jpeg" class="img-fluid" alt="Image 1">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-container">
+                                <h1 class="custom-heading">OUTDOOR ROOMS</h1>
+                                <a class="paragraph" href="#">To make the most of your outdoors, it’s best to have outdoor room extensions. Outdoor room extensions maximise your floor space and ensure you can enjoy your home’s exterior spaces all year round.</a>
+                                <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                                    ="button" rel="nofollow" target="_blank">DISCOVER OUTDOOR ROOMS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Add more sections as needed -->
+            </div>
+            <div class="container">
+                <div class="section" id="section4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-container">
+                                <h1 class="custom-heading">COMMERCIAL</h1>
+                                <a class="paragraph" href="#">Ensure your commercial project uses quality Shademaster roof panels and enjoy the flexibility that the insulated and single skin roof panel range offers in creating a stunning and unique masterpiece.</a>
+                                <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="Authorised Shademaster dealers are located across Australia in NSW, QLD, VIC, and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions. Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers."
+                                    ="button" rel="nofollow" target="_blank">DISCOVER COMMERCIALS</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-container">
+                                <img src="image/c.jpeg" class="img-fluid" alt="Image 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Add more sections as needed -->
+            </div>
+
+            
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<footer class="footer">
+    <img src="image/logo.png" height="70" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h6>ROOFING DESIGNS</h6>
+                <ul>
+                    <li>PATIOS</li>
+                    <li>VERANDAHS</li>
+                    <li>PERGOLAS</li>
+                    <li>ALFRESCOS</li>
+                    <li>CARPORTS</li>
+                    <li>GAZEBOS</li>
+                    <li>OUTDOOR ROOMS</li>
+                    <li>COMMERCIAL PROJECTS</li>
+                </ul>
+                <h6>WARRANTY</h6>
+            </div>
+            
+            <div class="footer-col">
+                <h6>ROOFING PANELS</h6>
+                <h6>CHOOSE A COLOUR</h6>
+                <h6>DEALER LOCATOR</h6>
+                <h6>WHY CHOOSE SHADEMASTER</h6>
+                <h6>WHAT IS THE RIGHT COLOUR?</h6>
+                <h6>SUPERIOR COLOUR</h6>
+                <h6>ABOUT US</h6>
+                <h6>TERM AND CONDITIONS</h6>
+                <h6>FAQ</h6>
+                <h6>CONTACT US</h6>
+                
+            </div>
+            <div class="line"></div>
+            <footer>
+                <div class="footer-content">
+                  <div class="column">
+                    <p>GET INSPIRED BY FOLLOWING US.</p>
+                  </div>
+                  <div class="column">
+                    <img src="" alt="Logo 1">
+                  </div>
+                  <div class="column">
+                    <img src="path/to/logo2.png" alt="Logo 2">
+                  </div>
+                  <div class="column">
+                    <img src="path/to/logo3.png" alt="Logo 3">
+                  </div>
+                </div>
+              </footer>
+              
+            <div class="line"></div>
+            
+            <div class="text-center text-white font-weight-normal"></div>
+        
+          
+            <div class="line"></div>
+        
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
